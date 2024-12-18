@@ -1,0 +1,25 @@
+\RequirePackage[orthodox]{nag}
+\documentclass[11pt]{article}
+
+%% Define the include path
+\makeatletter
+\providecommand*{\input@path}{}
+\g@addto@macro\input@path{{include/}{../include/}}
+\makeatother
+
+\usepackage{include/akazachk}
+
+\title{CS189 Intro to Machine Learning Course Notes}
+\author{Andres Espinosa}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\include{lectures/lecture1}
+
+
+
+
+\end{document}
